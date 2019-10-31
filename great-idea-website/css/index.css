@@ -64,13 +64,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-*{
-	box-sizing: border-box;
-	border: 1px solid blue !important;
 
-}
 header{
-	
+	margin-left: 25%;
 }
 
 nav{
@@ -86,6 +82,7 @@ nav{
 }
 
 h1{
+	display: inline-block;
 	font-size:50px;
 	text-align:center;
 }
@@ -109,7 +106,7 @@ p{
 	width: 50%;
 
 }
-.button1{
+.buttonbutton1{
 	background-color: white;
 	color: black;
 	border-color:black;
@@ -119,7 +116,8 @@ p{
 
 .section1{
 	display: inline-block;
-	width:25%
+	width:25%;
+	
 }
 
 .section2{
